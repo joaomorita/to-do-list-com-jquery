@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+body{
+    display: flex;
+    background: rgb(99,99,107);
+    background: linear-gradient(90deg, rgba(99,99,107,1) 0%, rgb(77, 77, 97) 35%, rgba(29,43,46,1) 100%);
+    color: white;
+}
+
+
+.container{
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    height: 100vh;
+}
+
+.container h1{
+    font-size: 50px;
+}
+
+.container p {
+    font-size: 11px;
+}
+
+#input-tarefa{
+    display: flex;
+    padding: 10px;
+}
+
+#txtatv{
+    width: 400px;
+    text-indent: 20px;
+    padding: 8px 0;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    font-weight: bold;
+}
+
+#btn-submit{
+    width: 100px;
+    padding: 8px 0;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(29,43,46,1);
+    transition: .3s;
+}
+
+#btn-submit:hover{
+    cursor: pointer;
+    background-color: rgba(99,99,107,1);
+    color: rgba(29,43,46,1);
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin: auto;
+}
+
+ul li{
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: rgba(29,43,46,1);
+    width: 300px;
+    color: white;
+    justify-content: center;
+    border-radius: 13px;
+    margin: auto;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+
+.buttons-container{
+    display: flex;
+    align-items: center;
+}
+
+ul img {
+    height: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#btn-confirma{
+    margin-right: 10px;
+}
