@@ -12,12 +12,10 @@ $(document).ready(function(){
             $(`<a href="#">${novaTarefa}</a>`).appendTo(novoItem)
             $(novoItem).appendTo('ul')
             $('#txtatv').val('')
-
-            $('#lista-de-tarefas').on('click', 'li', function () {
-                $(this).find('a').toggleClass('checked');
-            })
         }
-        
     })
+    $('#lista-de-tarefas').on('click', 'li', function () {
+            $(this).find('a').toggleClass('checked');
+        });
 
 })
